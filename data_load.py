@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 # load the csv from the data folder
 
 training_frame = pd.read_csv('data/F16traindata_CMabV_2024.csv')
@@ -22,3 +23,8 @@ ax.set_xlabel('alpha')
 ax.set_ylabel('beta')
 ax.set_zlabel('Cm')
 plt.show()
+
+
+
+
+
